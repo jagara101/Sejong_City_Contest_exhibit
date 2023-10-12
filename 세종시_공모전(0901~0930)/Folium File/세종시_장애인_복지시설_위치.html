@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2c78bb84602a93ee0d891053435c53d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2c78bb84602a93ee0d891053435c53d2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2c78bb84602a93ee0d891053435c53d2 = L.map(
+                "map_2c78bb84602a93ee0d891053435c53d2",
+                {
+                    center: [36.4799919, 127.2890511],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a6ae1dc4c876db7112fb81a9f8b0a57d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+            var marker_d7350a4bcd5e08f65a945d1ee42207ae = L.marker(
+                [36.6241137, 127.217338],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_25ccf6739e7f3b7db11db28a5d2f13f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96099f475c6a156461fcaf6edded2509 = $(`<div id="html_96099f475c6a156461fcaf6edded2509" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>요나의집</b></font></div>`)[0];
+                popup_25ccf6739e7f3b7db11db28a5d2f13f3.setContent(html_96099f475c6a156461fcaf6edded2509);
+            
+        
+
+        marker_d7350a4bcd5e08f65a945d1ee42207ae.bindPopup(popup_25ccf6739e7f3b7db11db28a5d2f13f3)
+        ;
+
+        
+    
+    
+            var marker_bee7cf93abb3197d0e5b2c7bd5fedb24 = L.marker(
+                [36.698844, 127.2225127],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_8eccb0bc6ad1b30ebf7bf5891fbf929b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_538a5a0d4b6abc958b16ea4e28dcdd34 = $(`<div id="html_538a5a0d4b6abc958b16ea4e28dcdd34" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>해뜨는 집</b></font></div>`)[0];
+                popup_8eccb0bc6ad1b30ebf7bf5891fbf929b.setContent(html_538a5a0d4b6abc958b16ea4e28dcdd34);
+            
+        
+
+        marker_bee7cf93abb3197d0e5b2c7bd5fedb24.bindPopup(popup_8eccb0bc6ad1b30ebf7bf5891fbf929b)
+        ;
+
+        
+    
+    
+            var marker_ff907d57ccd32001ac89eb1d177acb6e = L.marker(
+                [36.6408441, 127.1779277],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_97c84e91c923ca7f71500d1ee57503f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1275c9dcf6f8f41bb88a94a85d493d0a = $(`<div id="html_1275c9dcf6f8f41bb88a94a85d493d0a" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종빌</b></font></div>`)[0];
+                popup_97c84e91c923ca7f71500d1ee57503f7.setContent(html_1275c9dcf6f8f41bb88a94a85d493d0a);
+            
+        
+
+        marker_ff907d57ccd32001ac89eb1d177acb6e.bindPopup(popup_97c84e91c923ca7f71500d1ee57503f7)
+        ;
+
+        
+    
+    
+            var marker_fe2412d59a36bd80e2bcfa9d9f79a7c8 = L.marker(
+                [36.6234224, 127.2171398],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_77e061fcf9f831421cbd671cef67c02b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad2897d815d11c0eb6abb393fd86f462 = $(`<div id="html_ad2897d815d11c0eb6abb393fd86f462" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>노아의집</b></font></div>`)[0];
+                popup_77e061fcf9f831421cbd671cef67c02b.setContent(html_ad2897d815d11c0eb6abb393fd86f462);
+            
+        
+
+        marker_fe2412d59a36bd80e2bcfa9d9f79a7c8.bindPopup(popup_77e061fcf9f831421cbd671cef67c02b)
+        ;
+
+        
+    
+    
+            var marker_08032ce032ed55d94fe971beef5096d3 = L.marker(
+                [36.5865748, 127.2952391],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_352d7617121b6e3cb574555ec6725a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ecb00a096996ffce35c63ca37b5910b = $(`<div id="html_0ecb00a096996ffce35c63ca37b5910b" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종시 장애인복지관</b></font></div>`)[0];
+                popup_352d7617121b6e3cb574555ec6725a32.setContent(html_0ecb00a096996ffce35c63ca37b5910b);
+            
+        
+
+        marker_08032ce032ed55d94fe971beef5096d3.bindPopup(popup_352d7617121b6e3cb574555ec6725a32)
+        ;
+
+        
+    
+    
+            var marker_e9abbacb4c4cc2f59facde9778b5da44 = L.marker(
+                [36.5026584, 127.2467756],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_457b08d93834de3d6ecabe3a6eba4f24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cd9f7dbb0737ca71ee6e810efc61c2f = $(`<div id="html_6cd9f7dbb0737ca71ee6e810efc61c2f" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>종촌종합복지센터 장애인주간보호센터</b></font></div>`)[0];
+                popup_457b08d93834de3d6ecabe3a6eba4f24.setContent(html_6cd9f7dbb0737ca71ee6e810efc61c2f);
+            
+        
+
+        marker_e9abbacb4c4cc2f59facde9778b5da44.bindPopup(popup_457b08d93834de3d6ecabe3a6eba4f24)
+        ;
+
+        
+    
+    
+            var marker_0f393d860ae2b74c9d6e4298362fd7e1 = L.marker(
+                [36.605641, 127.2909671],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_ddd8185856555cd30a03553f2f8abc8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61955d8493ba1a825a1090a51d303eea = $(`<div id="html_61955d8493ba1a825a1090a51d303eea" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종시장애인생활이동지원센터</b></font></div>`)[0];
+                popup_ddd8185856555cd30a03553f2f8abc8e.setContent(html_61955d8493ba1a825a1090a51d303eea);
+            
+        
+
+        marker_0f393d860ae2b74c9d6e4298362fd7e1.bindPopup(popup_ddd8185856555cd30a03553f2f8abc8e)
+        ;
+
+        
+    
+    
+            var marker_9481a7f6095c9adb703d9dee50c3be6b = L.marker(
+                [36.5976765, 127.2985507],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_531619de6bcbf2084804d859a01ccfce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb66494c873d9be7b9c3a06b2c089fb8 = $(`<div id="html_fb66494c873d9be7b9c3a06b2c089fb8" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종시 수어통역센터</b></font></div>`)[0];
+                popup_531619de6bcbf2084804d859a01ccfce.setContent(html_fb66494c873d9be7b9c3a06b2c089fb8);
+            
+        
+
+        marker_9481a7f6095c9adb703d9dee50c3be6b.bindPopup(popup_531619de6bcbf2084804d859a01ccfce)
+        ;
+
+        
+    
+    
+            var marker_a26e847abdcdb3af8957f709dc171ff2 = L.marker(
+                [36.6747376, 127.1888184],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_53c19965f4a4ccab7bde131393c1fff5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_762b843e5f19ed8ab581b5edfbdf7b65 = $(`<div id="html_762b843e5f19ed8ab581b5edfbdf7b65" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종장애인주간보호센터</b></font></div>`)[0];
+                popup_53c19965f4a4ccab7bde131393c1fff5.setContent(html_762b843e5f19ed8ab581b5edfbdf7b65);
+            
+        
+
+        marker_a26e847abdcdb3af8957f709dc171ff2.bindPopup(popup_53c19965f4a4ccab7bde131393c1fff5)
+        ;
+
+        
+    
+    
+            var marker_44f1af2ec66dbf3acba67c955c3d3d2f = L.marker(
+                [36.5026153, 127.2481851],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_ee2466b0b9ca450f5f8cf8076c6607bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca92f94b2d543c08f7368a6cff2102f6 = $(`<div id="html_ca92f94b2d543c08f7368a6cff2102f6" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종마음아동발달센터</b></font></div>`)[0];
+                popup_ee2466b0b9ca450f5f8cf8076c6607bd.setContent(html_ca92f94b2d543c08f7368a6cff2102f6);
+            
+        
+
+        marker_44f1af2ec66dbf3acba67c955c3d3d2f.bindPopup(popup_ee2466b0b9ca450f5f8cf8076c6607bd)
+        ;
+
+        
+    
+    
+            var marker_3f6952695eb6d57f7821b215534e006e = L.marker(
+                [36.5119591, 127.2484611],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_f8ee35d52245b107586696afb373b16a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ddb4f49998cf2b44502f5a53f764cc3 = $(`<div id="html_6ddb4f49998cf2b44502f5a53f764cc3" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>보듬언어 행동발달센터</b></font></div>`)[0];
+                popup_f8ee35d52245b107586696afb373b16a.setContent(html_6ddb4f49998cf2b44502f5a53f764cc3);
+            
+        
+
+        marker_3f6952695eb6d57f7821b215534e006e.bindPopup(popup_f8ee35d52245b107586696afb373b16a)
+        ;
+
+        
+    
+    
+            var marker_6a64085c1ea91520ce35cf18ae1cd96b = L.marker(
+                [36.5045207, 127.2496465],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_c21532de6be4f48422659aaccfb1aca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c0663fc9cb08ebb070a591e862f8ac7 = $(`<div id="html_4c0663fc9cb08ebb070a591e862f8ac7" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>봄비와씨앗 아동발달센터</b></font></div>`)[0];
+                popup_c21532de6be4f48422659aaccfb1aca9.setContent(html_4c0663fc9cb08ebb070a591e862f8ac7);
+            
+        
+
+        marker_6a64085c1ea91520ce35cf18ae1cd96b.bindPopup(popup_c21532de6be4f48422659aaccfb1aca9)
+        ;
+
+        
+    
+    
+            var marker_c2b330f7bd108e0cd56da142d0a46e5a = L.marker(
+                [36.5116127, 127.2436209],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_2bf0c4e1e20bf3ca0b9fcd783b354e4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b8a441a79f695563a1dc10e83a7fac6 = $(`<div id="html_8b8a441a79f695563a1dc10e83a7fac6" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>늘품아동청소년 발달센터</b></font></div>`)[0];
+                popup_2bf0c4e1e20bf3ca0b9fcd783b354e4d.setContent(html_8b8a441a79f695563a1dc10e83a7fac6);
+            
+        
+
+        marker_c2b330f7bd108e0cd56da142d0a46e5a.bindPopup(popup_2bf0c4e1e20bf3ca0b9fcd783b354e4d)
+        ;
+
+        
+    
+    
+            var marker_5f3105fe6c2b23e844a0e473cdb04afb = L.marker(
+                [36.4782273, 127.2900167],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_ffd5d592771b9999f345f7b22f47b6b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4451621a8087a7d9a4016dd4fd3dcd41 = $(`<div id="html_4451621a8087a7d9a4016dd4fd3dcd41" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>보람언어심리 상담센터</b></font></div>`)[0];
+                popup_ffd5d592771b9999f345f7b22f47b6b1.setContent(html_4451621a8087a7d9a4016dd4fd3dcd41);
+            
+        
+
+        marker_5f3105fe6c2b23e844a0e473cdb04afb.bindPopup(popup_ffd5d592771b9999f345f7b22f47b6b1)
+        ;
+
+        
+    
+    
+            var marker_690716f12cbd4a027795071de9c91d21 = L.marker(
+                [36.6234224, 127.2171398],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_b170a0ceacce9df6bc3d9f7fd2147c13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e22155a5303aca9b6ca21cb4f90095f4 = $(`<div id="html_e22155a5303aca9b6ca21cb4f90095f4" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>이화보호작업장</b></font></div>`)[0];
+                popup_b170a0ceacce9df6bc3d9f7fd2147c13.setContent(html_e22155a5303aca9b6ca21cb4f90095f4);
+            
+        
+
+        marker_690716f12cbd4a027795071de9c91d21.bindPopup(popup_b170a0ceacce9df6bc3d9f7fd2147c13)
+        ;
+
+        
+    
+    
+            var marker_ea9bcb6e003b93275502ec918d95e572 = L.marker(
+                [36.5546701, 127.2740325],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_f768ca1151af89a16936a131610db36f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_613366a3773e36f42e4247f2993c7f5f = $(`<div id="html_613366a3773e36f42e4247f2993c7f5f" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>에코디자인</b></font></div>`)[0];
+                popup_f768ca1151af89a16936a131610db36f.setContent(html_613366a3773e36f42e4247f2993c7f5f);
+            
+        
+
+        marker_ea9bcb6e003b93275502ec918d95e572.bindPopup(popup_f768ca1151af89a16936a131610db36f)
+        ;
+
+        
+    
+    
+            var marker_659647701834779f447e90b438a8b97f = L.marker(
+                [36.5026584, 127.2467756],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_f6be1a1fd4ad9d7cb3fa72445a57cf14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feae4bc9542d22fd5865ac74350a2dbd = $(`<div id="html_feae4bc9542d22fd5865ac74350a2dbd" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>종촌종합복지센터 장애인보호작업장</b></font></div>`)[0];
+                popup_f6be1a1fd4ad9d7cb3fa72445a57cf14.setContent(html_feae4bc9542d22fd5865ac74350a2dbd);
+            
+        
+
+        marker_659647701834779f447e90b438a8b97f.bindPopup(popup_f6be1a1fd4ad9d7cb3fa72445a57cf14)
+        ;
+
+        
+    
+    
+            var marker_2e5c309d9227aecdc0aa07f21025c9e9 = L.marker(
+                [36.58502, 127.2966437],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_826455226cbf8be9dfddc34f228225a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5389ca6d34c29742461f2d40311c1023 = $(`<div id="html_5389ca6d34c29742461f2d40311c1023" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종보호작업장</b></font></div>`)[0];
+                popup_826455226cbf8be9dfddc34f228225a7.setContent(html_5389ca6d34c29742461f2d40311c1023);
+            
+        
+
+        marker_2e5c309d9227aecdc0aa07f21025c9e9.bindPopup(popup_826455226cbf8be9dfddc34f228225a7)
+        ;
+
+        
+    
+    
+            var marker_f08e27ab23996dde36735508272386a7 = L.marker(
+                [36.6036155, 127.3012604],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_d98c752b66450428818fabe24454cd90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_439fd06a039fc88a581483a52e3dc1b0 = $(`<div id="html_439fd06a039fc88a581483a52e3dc1b0" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>새뜰보호작업장</b></font></div>`)[0];
+                popup_d98c752b66450428818fabe24454cd90.setContent(html_439fd06a039fc88a581483a52e3dc1b0);
+            
+        
+
+        marker_f08e27ab23996dde36735508272386a7.bindPopup(popup_d98c752b66450428818fabe24454cd90)
+        ;
+
+        
+    
+    
+            var marker_7616e8f0d912007cb7c3e6386ec64b57 = L.marker(
+                [36.5964127, 127.2762009],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_8795778798a1cfc24e4291db31ec1788 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b88b86d8659171a74ae6886629e4a4fa = $(`<div id="html_b88b86d8659171a74ae6886629e4a4fa" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>도원장애인보호작업장</b></font></div>`)[0];
+                popup_8795778798a1cfc24e4291db31ec1788.setContent(html_b88b86d8659171a74ae6886629e4a4fa);
+            
+        
+
+        marker_7616e8f0d912007cb7c3e6386ec64b57.bindPopup(popup_8795778798a1cfc24e4291db31ec1788)
+        ;
+
+        
+    
+    
+            var marker_b4bb194244ba48564e5df4026f5326ea = L.marker(
+                [36.6022049, 127.3033344],
+                {}
+            ).addTo(map_2c78bb84602a93ee0d891053435c53d2);
+        
+    
+        var popup_88460489cdb941d49b4431cc7c23d293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f97df4b4d9a083af99244292e6bd750e = $(`<div id="html_f97df4b4d9a083af99244292e6bd750e" style="width: 100.0%; height: 100.0%;"><font color='blue' style='white-space:nowrap'><b>세종시장애인 생산품판매시설</b></font></div>`)[0];
+                popup_88460489cdb941d49b4431cc7c23d293.setContent(html_f97df4b4d9a083af99244292e6bd750e);
+            
+        
+
+        marker_b4bb194244ba48564e5df4026f5326ea.bindPopup(popup_88460489cdb941d49b4431cc7c23d293)
+        ;
+
+        
+    
+</script>
+</html>
