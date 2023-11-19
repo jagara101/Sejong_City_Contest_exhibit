@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="복지관_정보_위도경도-Sheet1">
+        <SrcDataSource relativeToVRT="1">복지관_정보_위도경도.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="시설명" src="시설명" type="String"/>
+        <Field name="소재지" src="소재지" type="String"/>
+        <Field name="Field5" src="Field5" type="String"/>
+        <Field name="Field6" src="Field6" type="Date"/>
+        <Field name="Field7" src="Field7" type="String"/>
+        <Field name="Field8" src="Field8" type="Date"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="경도" y="위도"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
